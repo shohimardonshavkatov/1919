@@ -5,7 +5,6 @@ import { FiArrowRight } from 'react-icons/fi'
 const roles = ['Full-Stack Developer', 'React Specialist', 'UI/UX Engineer', 'Performance Optimizer']
 
 export default function Hero(){
-  const [index,setIndex]=useState(0)
   const [text,setText]=useState('')
 
   useEffect(()=>{
@@ -60,7 +59,7 @@ export default function Hero(){
                 <div style={{fontWeight:700}}>Project Highlights</div>
                 <div style={{color:'var(--muted)',fontSize:13}}>2024 · UI</div>
               </div>
-              <div style={{height:160,borderRadius:12,background:'linear-gradient(135deg, rgba(139,92,246,0.12), rgba(0,245,255,0.08))',display:'flex',alignItems:'center',justifyContent:'center',color:'var(--text)'}}>Interactive demo card</div>
+              <div style={{height:160,borderRadius:12,background:'linear-gradient(135deg, rgba(139,92,246,0.12), rgba(0,245,255,0.08))',display:'flex',alignItems:'center',justifyContent:'center',color:'var(--muted)',fontSize:14}}>Featured Work</div>
               <div style={{display:'flex',gap:10,justifyContent:'space-between',alignItems:'center'}}>
                 <div style={{display:'flex',gap:8,alignItems:'center'}}>
                   <div style={{width:10,height:10,borderRadius:2,background:'var(--neon-blue)'}} />

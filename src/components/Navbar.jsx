@@ -15,7 +15,7 @@ export default function Navbar(){
         </div>
 
         <div style={{display:'flex',alignItems:'center',gap:12}}>
-          <div className="nav-links" style={{display: open ? 'none' : 'flex'}}>
+          <div className="nav-links" style={{display: open ? 'flex' : 'none'}}>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
