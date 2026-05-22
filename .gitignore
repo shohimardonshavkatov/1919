@@ -1,0 +1,1 @@
+node_modules/\ndist/\n.env\n.env.local\n.env.*.local\n*.log\nnpm-debug.log*\nyarn-debug.log*\nyarn-error.log*\npnpm-debug.log*\nlerna-debug.log*\n.DS_Store\n.idea/\n.vscode/\n*.suo\n*.ntvs*\n*.njsproj\n*.sln\n*.sw?\n
